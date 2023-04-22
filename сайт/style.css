@@ -1,0 +1,564 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    background-image: url(это.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-1{
+    height: 70px;
+    width: 70px;
+}
+
+
+.container {
+    margin: 0px, 166px;
+}
+
+.header-line{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.nav-item{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+    margin-right: 25px;
+    border-left: 3px solid #000000 ;
+    border-right:  3px solid #000000;
+    transition: color 0.3s linear;
+   
+}
+
+.nav-item:hover {
+    color: #ff0000;
+}
+
+
+.nam {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s linear;
+}
+
+.nam:hover{
+    color: #ff0000; 
+}
+
+.phone-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tinos', serif;
+    
+}
+.phone-holder{
+    display: flex;
+    align-items: center;
+}
+
+.titless{
+    margin-top: 20px;
+    align-items: center;
+    color: #000000;
+    font-size: 50px;
+    text-align: center;
+    margin-right: 5%;
+
+}
+
+.pro{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tinos', serif;
+    font-size: 50px; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 8%;    
+}
+
+.zakaz{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tinos', serif;
+    font-size: 30px; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 7%; 
+}
+
+.img-b3{
+    width: 500px;
+    height: 500px;
+}
+
+    .header-title {
+        color:black;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Tinos', serif;
+        font-size: 50px; 
+        font-weight:500;
+        text-align: center;
+        justify-content: center;
+        margin-top: 2%;    
+        margin-right: 7%;
+        
+    
+    }
+    .header-subtitle {
+        color: rgb(41, 34, 26);
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+    
+    }
+
+
+    .card-holder{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .card{
+        
+        width: 349px;
+        box-shadow: 10px 10px 40px 20px #797a76;
+        margin-right: 31px;
+        background-color: rgb(255, 255, 255);
+        margin-top:-70px;
+        padding: 0px 10px;
+    
+    }
+    
+    .prosto{
+        background-image: url(fonnn.jpg);
+        height: 31vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
+    .card-image {
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .card-title{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Tinos', serif;
+        font-size: 26px; 
+        font-weight:500;
+    
+    }
+    
+    .card-desc{
+        
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Tinos', serif;
+        font-size: 20px; 
+        font-weight:400;
+        margin-top: 10px;
+        
+    }
+
+    .history{
+        margin-top: 5%;
+    }
+
+    .histore-info{
+          background: white;
+        border-radius: 6px;
+        color: #000000;
+        padding-inline-start: 16px;
+        width: 400px;
+        overflow: hidden;
+        transition: .6s;
+        transform: translate(0);
+        font-weight: 400;
+        padding: 30px;
+        margin-left: 35%;
+        text-align: center;
+    }
+
+    .histore-info:hover{
+        color: white;
+    }
+
+    .histore-info::before{
+        content: '';
+        position: absolute;
+        top:-75px;
+        left: -45px;
+        z-index: -1;
+        background: linear-gradient(to right, #3bd9d9, #36a6bf);
+        border-radius: 50%;
+        width: 218px;
+        height: 265px;
+        transition: .6s;
+    }
+
+    .histore-info:hover::before{
+        transform: scale(4.5);
+    }
+
+    
+    
+    .history-title{
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Tinos', serif;
+        font-size: 30px; 
+        text-align: center;
+        
+    }
+
+    .history-desc{
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Tinos', serif;
+        font-size: 20px;
+        align-items: center;
+    }
+    
+    
+    
+    .history-holder{
+        display: flex;
+        
+    }
+
+    
+    
+    .photo-1{
+        width: 70%;
+        margin-top: -24%;
+        margin-left: 3%;
+    }
+
+    .images-1{
+        width: 703px;
+        height: 800px;
+    }
+
+    .title{
+        margin-top: 20px;
+        align-items: center;
+        color: #000000;
+        font-size: 50px;
+        text-align: center;
+        margin-right: 8%;
+
+    }
+
+    .photo-2{
+        width: 100%;
+        height: 300px ;
+        
+    }
+
+    .img{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: relative;
+        
+    }
+
+    .member-2{
+        position: relative;      
+        padding: 0 5px;
+        transition: .5s all ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative; 
+    }
+
+    .description-2{      
+        margin: 0 10px;
+        position: absolute;
+        color: #000000;
+         text-decoration: none;
+        color: #fff;
+        font-family: sans-serif;
+        width: 70%;
+        height: 100%;
+        text-align: center;
+        background-color:#C76637;
+        user-select: none;
+        opacity: 0.4;
+        transition: .3;
+        background: #333;
+     }
+
+     .prof-2{
+        color: hsl(0deg 0% 100% / 0%);
+        font-weight: bold;
+    }
+
+    .produkt{
+        background-image: url(fonnn.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 5%;
+        
+    }
+
+    .produkt{
+        background-color: #a09f9f04;
+        
+    }
+
+    .produkts{
+      position: relative;    
+      display: flex;
+      margin-top: 2%; 
+      justify-content: space-around;
+      justify-content: center;
+      margin-right: 15%;
+    
+    
+  }
+   
+     .member{
+        position: relative;
+        max-width: 300px;
+        padding: 0 5px;
+        transition: .5s all ease;
+        display: flex;
+        align-items: baseline;
+    
+    }
+    
+    .photo{
+        width:100%;
+       
+        
+    }
+
+    .description{
+       
+       margin: 0 10px;
+       position: absolute;
+       color: #000000;
+        text-decoration: none;
+       color: #fff;
+       font-family: sans-serif;
+       width: 100%;
+       height: 100%;
+       text-align: center;
+       background-color:#C76637;
+       user-select: none;
+       opacity: 0.4;
+       transition: .3;
+       background: rgba(255,255,255,0.5);
+    }
+    
+    .name{
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 0;
+        margin-top: 70%;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .silk{
+    
+        color: #000000;
+        text-decoration: none; 
+        border-left: 3px solid #000000 ;
+        border-right:  3px solid #000000;
+        transition: color 0.3s linear;
+    }
+
+    .silk:hover{
+        color: #1401317e;
+    }
+
+    .prof{
+        color: #000000;
+        font-weight: bold;
+    }
+    
+    .member:hover{
+        margin-top: -40px;
+        opacity: 1;
+    }
+    
+    .member:hover .description{
+        margin-top: -40px;
+        opacity: 1;
+    }
+
+    .kontakt{
+        background-image: url(Fon.jpg);
+        height: 75vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
+    .titles{
+        margin-top: 20px;
+        align-items: center;
+        color: #000000;
+        font-size: 50px;
+        text-align: center;
+        
+
+    }
+    
+    .card-titles{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Tinos', serif;
+        font-size: 26px; 
+        font-weight:500;
+    
+    }
+
+    .cards-holder{
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+
+    .cardss{
+        
+        width: 400px;
+        box-shadow: 10px 10px 40px 20px #000000;
+        margin-right: 31px;
+        background-color: rgba(141, 141,141, 0.6);
+        margin-top:65px;
+        padding: 0px 10px;
+    
+    }
+   
+    .pochta{
+        text-decoration: none;
+        color: #002897;
+    }
+
+    .pochta:hover{
+        color: #6600ff;
+    }
+    
+
+    .kompani{
+        background-image: url(fon-bkr.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
+
+    .o_comp{
+        justify-content: center;
+    }
+
+    .title_com{
+        font-size: 50px;
+        align-items: center;
+        display: flex;
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Tinos', serif;
+        
+    }
+
+    .o_comapani{
+        margin-top: 2%;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        position: relative;
+        font-size: 25px;
+        justify-content: center;
+        width: 98%;   
+        margin-left: 1%; 
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Tinos', serif;
+
+    }
+
+    .karta_1{
+        align-items: center;
+        justify-content: center;
+        margin-top: 1%;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Tinos', serif;
+        font-size: 50px;
+        position: relative;
+        text-align: center;
+    }
+
+    .karta{
+        margin-top: 3%;
+        align-items: center;
+    }
+
+   @media only screen and (max-width:1600px) {
+    .photo-2{
+        width: 100%;
+        height: 274px ;
+        
+    }
+   }
+
+   @media only screen and(max-width:1200px) {
+    .produkts{
+        position: relative;    
+        display: flex;
+        margin-top: 2%; 
+        justify-content: space-around, center;
+        
+      
+      
+    }
+   }
+
+   @media only screen and(max-width:992px) {
+    
+   }
+
+   @media only screen and(max-width:768px) {
+    
+   }
+
+   @media only screen and(max-width:480px) {
+    .header{
+    background-image: url(это.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   }
+
+   @media only screen and(max-width:320px) {
+    
+   }
+
+
+ 
